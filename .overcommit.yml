@@ -1,9 +1,9 @@
 PreCommit:
- RuboCop:
-   enabled: true
+  RuboCop:
+    enabled: true
 
-	Brakeman:
-		enabled: true
+  Brakeman:
+    enabled: true
 
 PrePush:
   RSpec:
