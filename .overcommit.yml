@@ -1,0 +1,12 @@
+PreCommit:
+ RuboCop:
+   enabled: true
+
+	Brakeman:
+		enabled: true
+
+PrePush:
+  RSpec:
+    enabled: true
+    command: ['bundle', 'exec', 'rspec', 'spec']
+    on_warn: fail
